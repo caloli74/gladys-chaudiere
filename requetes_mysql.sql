@@ -62,31 +62,31 @@ use chaudiere;
 -- ('Chambre enfants', 18, 20);
 -- 
 
-select a.room
-,case when b.Comfort = 1
-	then a.comfort_temp
-	else a.eco_temp
+select a.room,
+case when b.Comfort = 1
+    then a.comfort_temp
+    else a.eco_temp
 end target_temp
 from target_temp a
 cross join (
-	select count(*) Comfort
-	from schedule a
-	inner join (
-		select
-		case special_day
-			when 'holiday' then 'all'
-			when 'away' then case
-				when date(now()) = start_date then 'firstday'
-				when date(now()) = stop_date then 'lastday'
-				else 'during'
-				end
-			else dayname(now())
-			end day,
-		special_day
-		from special_days
-		where date(now()) between start_date and stop_date
-		order by special_day desc
-		limit 1
-	) b on b.day = a.day and b.special_day = a.special_day
-	where time(now()) between start_time and stop_time
+    select count(*) Comfort
+    from schedule a
+    inner join (
+        select
+        case special_day
+            when 'holiday' then 'all'
+            when 'away' then case
+                when date(now()) = start_date then 'firstday'
+                when date(now()) = stop_date then 'lastday'
+                else 'during'
+                end
+            else dayname(now())
+            end day,
+        special_day
+        from special_days
+        where date(now()) between start_date and stop_date
+        order by special_day desc
+        limit 1
+    ) b on b.day = a.day and b.special_day = a.special_day
+    where time(now()) between start_time and stop_time
 ) b
