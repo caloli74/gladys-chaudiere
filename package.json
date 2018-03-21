@@ -1,0 +1,10 @@
+{
+  "name": "gladys-chaudiere",
+  "version": "1.0.0",
+  "description": "controle chaudiere",
+  "main": "index.js",
+  "keywords": [
+    "Gladys"
+  ],
+  "author": "Oliv"
+}
