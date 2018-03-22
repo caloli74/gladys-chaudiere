@@ -1,0 +1,40 @@
+schedules = {"schedule":
+[
+{"day": "monday",    "special_day": "",        "start_date": "05:00", "stop_date": "07:00"},
+{"day": "monday",    "special_day": "",        "start_date": "17:00", "stop_date": "22:00"},
+{"day": "tuesday",   "special_day": "",        "start_date": "05:00", "stop_date": "07:00"},
+{"day": "tuesday",   "special_day": "",        "start_date": "17:00", "stop_date": "22:00"},
+{"day": "wednesday", "special_day": "",        "start_date": "05:00", "stop_date": "07:00"},
+{"day": "wednesday", "special_day": "",        "start_date": "12:00", "stop_date": "22:00"},
+{"day": "thursday",  "special_day": "",        "start_date": "05:00", "stop_date": "07:00"},
+{"day": "thursday",  "special_day": "",        "start_date": "17:00", "stop_date": "22:00"},
+{"day": "friday",    "special_day": "",        "start_date": "05:00", "stop_date": "07:00"},
+{"day": "friday",    "special_day": "",        "start_date": "17:00", "stop_date": "23:00"},
+{"day": "saturday",  "special_day": "",        "start_date": "09:00", "stop_date": "23:00"},
+{"day": "sunday",    "special_day": "",        "start_date": "09:00", "stop_date": "22:00"},
+{"day": "firstday",  "special_day": "away",    "start_date": "05:00", "stop_date": "07:00"},
+{"day": "during",    "special_day": "away",    "start_date": "00:00", "stop_date": "00:00"},
+{"day": "lastday",   "special_day": "away",    "start_date": "21:00", "stop_date": "23:00"},
+{"day": "all",       "special_day": "holiday", "start_date": "05:00", "stop_date": "07:00"},
+{"day": "monday",    "special_day": "HO",      "start_date": "05:00", "stop_date": "22:00"},
+{"day": "tuesday",   "special_day": "HO",      "start_date": "05:00", "stop_date": "22:00"},
+{"day": "wednesday", "special_day": "HO",      "start_date": "05:00", "stop_date": "22:00"},
+{"day": "thursday",  "special_day": "HO",      "start_date": "05:00", "stop_date": "22:00"},
+{"day": "friday",    "special_day": "HO",      "start_date": "05:00", "stop_date": "23:00"}
+]}
+
+special_days = {"special_day":
+[
+{"special_day": ""       , "start_date": "1900-01-01", "start_date": "2099-12-31"},
+{"special_day": "away"   , "start_date": "2018-03-16", "start_date": "2018-03-18"},
+{"special_day": "HO"     , "start_date": "2018-03-21", "start_date": "2018-03-21"},
+{"special_day": "holiday", "start_date": "2018-02-20", "start_date": "2018-02-27"}
+]}
+
+
+target_temps = {"target_temp":
+[
+{"room" :"salon"          , "eco_temp": 19, "comfort_temp": 21},
+{"room" :"Chambre"        , "eco_temp": 18, "comfort_temp": 20},
+{"room" :"Chambre enfants", "eco_temp": 18, "comfort_temp": 20}
+]}
