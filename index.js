@@ -3,7 +3,6 @@ module.exports = function (sails) {
     var daemon = require('./lib/daemon.js');
 
     gladys.on('ready', function(){
-        console.log(gladys.modules['xiaomi-gateway'].shared.SERVER_PORT);
         daemon();
     });
 
