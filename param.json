@@ -1,36 +1,36 @@
 {
     "schedule": [
-        {"day": "monday",    "special_day": "",        "start_time": "05:00", "stop_time": "07:00"},
+        {"day": "monday",    "special_day": "",        "start_time": "05:30", "stop_time": "07:30"},
         {"day": "monday",    "special_day": "",        "start_time": "17:00", "stop_time": "22:00"},
-        {"day": "tuesday",   "special_day": "",        "start_time": "05:00", "stop_time": "07:00"},
+        {"day": "tuesday",   "special_day": "",        "start_time": "05:30", "stop_time": "07:30"},
         {"day": "tuesday",   "special_day": "",        "start_time": "17:00", "stop_time": "22:00"},
-        {"day": "wednesday", "special_day": "",        "start_time": "05:00", "stop_time": "07:00"},
+        {"day": "wednesday", "special_day": "",        "start_time": "05:30", "stop_time": "07:30"},
         {"day": "wednesday", "special_day": "",        "start_time": "12:00", "stop_time": "22:00"},
-        {"day": "thursday",  "special_day": "",        "start_time": "05:00", "stop_time": "07:00"},
+        {"day": "thursday",  "special_day": "",        "start_time": "05:30", "stop_time": "07:30"},
         {"day": "thursday",  "special_day": "",        "start_time": "17:00", "stop_time": "22:00"},
-        {"day": "friday",    "special_day": "",        "start_time": "05:00", "stop_time": "07:00"},
+        {"day": "friday",    "special_day": "",        "start_time": "05:30", "stop_time": "07:30"},
         {"day": "friday",    "special_day": "",        "start_time": "17:00", "stop_time": "23:00"},
         {"day": "saturday",  "special_day": "",        "start_time": "09:00", "stop_time": "23:00"},
         {"day": "sunday",    "special_day": "",        "start_time": "09:00", "stop_time": "22:00"},
-        {"day": "firstday",  "special_day": "away",    "start_time": "05:00", "stop_time": "07:00"},
+        {"day": "firstday",  "special_day": "away",    "start_time": "05:30", "stop_time": "07:30"},
         {"day": "during",    "special_day": "away",    "start_time": "00:00", "stop_time": "00:00"},
-        {"day": "lastday",   "special_day": "away",    "start_time": "21:00", "stop_time": "23:00"},
-        {"day": "all",       "special_day": "holiday", "start_time": "05:00", "stop_time": "07:00"},
-        {"day": "monday",    "special_day": "HO",      "start_time": "05:00", "stop_time": "22:00"},
-        {"day": "tuesday",   "special_day": "HO",      "start_time": "05:00", "stop_time": "22:00"},
-        {"day": "wednesday", "special_day": "HO",      "start_time": "05:00", "stop_time": "22:00"},
-        {"day": "thursday",  "special_day": "HO",      "start_time": "05:00", "stop_time": "22:00"},
-        {"day": "friday",    "special_day": "HO",      "start_time": "05:00", "stop_time": "23:00"}
+        {"day": "lastday",   "special_day": "away",    "start_time": "21:30", "stop_time": "23:30"},
+        {"day": "all",       "special_day": "holiday", "start_time": "09:00", "stop_time": "23:00"},
+        {"day": "monday",    "special_day": "HO",      "start_time": "05:30", "stop_time": "22:00"},
+        {"day": "tuesday",   "special_day": "HO",      "start_time": "05:30", "stop_time": "22:00"},
+        {"day": "wednesday", "special_day": "HO",      "start_time": "05:30", "stop_time": "22:00"},
+        {"day": "thursday",  "special_day": "HO",      "start_time": "05:30", "stop_time": "22:00"},
+        {"day": "friday",    "special_day": "HO",      "start_time": "05:30", "stop_time": "23:00"}
     ],
     "special_day": [
         {"special_day": ""       , "start_date": "1900-01-01", "stop_date": "2099-12-31"},
-        {"special_day": "away"   , "start_date": "2018-03-16", "stop_date": "2018-03-18"},
-        {"special_day": "HO"     , "start_date": "2018-03-21", "stop_date": "2018-03-21"},
-        {"special_day": "holiday", "start_date": "2018-02-20", "stop_date": "2018-02-27"}
+        {"special_day": "away"   , "start_date": "2018-03-30", "stop_date": "2018-04-02"},
+        {"special_day": "HO"     , "start_date": "2018-03-29", "stop_date": "2018-03-29"},
+        {"special_day": "holiday", "start_date": "2018-04-09", "stop_date": "2018-04-13"}
     ],
     "target_temp": [
-        {"room" :"Salon"          , "eco_temp": 19, "comfort_temp": 21},
-        {"room" :"Chambre"        , "eco_temp": 18, "comfort_temp": 20},
-        {"room" :"Chambre enfants", "eco_temp": 18, "comfort_temp": 20}
+        {"room" :"Salon"          , "eco_temp": 18, "comfort_temp": 20},
+        {"room" :"Chambre"        , "eco_temp": 17, "comfort_temp": 19},
+        {"room" :"Chambre enfants", "eco_temp": 17, "comfort_temp": 19}
     ]
 }
