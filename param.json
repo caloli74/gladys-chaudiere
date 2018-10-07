@@ -25,14 +25,8 @@
     "special_day": [
         {"special_day": ""       , "start_date": "1900-01-01", "stop_date": "2099-12-31"},
         {"special_day": "away"   , "start_date": "2018-03-30", "stop_date": "2018-04-02"},
-        {"special_day": "HO"     , "start_date": "2018-03-29", "stop_date": "2018-03-29"},
-        {"special_day": "HO"     , "start_date": "2018-04-04", "stop_date": "2018-04-04"},
         {"special_day": "holiday", "start_date": "2018-04-09", "stop_date": "2018-04-09"},
-        {"special_day": "HO"     , "start_date": "2018-04-10", "stop_date": "2018-04-11"},
-        {"special_day": "holiday", "start_date": "2018-04-12", "stop_date": "2018-04-13"},
-        {"special_day": "away"   , "start_date": "2018-05-05", "stop_date": "2018-05-07"},
-        {"special_day": "HO"     , "start_date": "2018-05-16", "stop_date": "2018-05-16"},
-        {"special_day": "holiday", "start_date": "2018-05-15", "stop_date": "2018-09-15"}
+        {"special_day": "HO"     , "start_date": "2018-10-05", "stop_date": "2018-10-05"}
     ],
     "target_temp": [
         {"room" :"Salon"          , "eco_temp": 18, "comfort_temp": 22},
